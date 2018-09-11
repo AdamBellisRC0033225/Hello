@@ -19,12 +19,32 @@ namespace Hello
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello " + txtBxName.Text);
+            MessageBox.Show("Welcome to Adam's program!");
         }
 
         private void txtBxName_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello " + txtBxName.Text + " and " + txtBxName2.Text);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Goodbye " + txtBxName.Text + " and " + txtBxName2.Text);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Decent this.");
         }
     }
 }
