@@ -34,7 +34,7 @@ namespace Hello
 
         private void button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Goodbye " + txtBxName.Text + " and " + txtBxName2.Text);
+           MessageBox.Show("Decent this.");
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -44,7 +44,7 @@ namespace Hello
 
         private void button4_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Decent this.");
+           MessageBox.Show("Goodbye " + txtBxName.Text + " and " + txtBxName2.Text);
         }
     }
 }
